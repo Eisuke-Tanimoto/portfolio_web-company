@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, i
+    nitial-scale=1.0" />
+    <meta name=”description” content=”TanimotoEisukeの制作したポートフォリオサイトです。デザインカンプからコーディングしました。トップを動画にするなど、少し変更している箇所があります。”>
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/vendors/swiper-bundle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>PORT DESIGN</title>
+  </head>
+
+  <body>
+    <div class="top-scroll fas fa-chevron-circle-up fa-2x"></div>
+
+    <!-- 以下、ヘッダー -->
+
+    <header class="header">
+      <div class="nav-cover">
+        <nav class="nav-list">
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">RECRUIT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </nav>
+      </div>
+
+      <div class="header__inner">
+        <div class="header__logo"><a href="#">PORT DESIGN</a></div>
+        <nav class="header__nav">
+          <li><a href="#" class="link">NEWS</a></li>
+          <li><a href="#" class="link">SERVICE</a></li>
+          <li><a href="#" class="link">WORKS</a></li>
+          <li><a href="#" class="link">COMPANY</a></li>
+          <li><a href="#" class="link">RECRUIT</a></li>
+          <li><a href="#" class="link">CONTACT</a></li>
+        </nav>
+      </div>
+      <div class="menu-btn"><span></span><span></span><span></span></div>
+    </header>
+
+    <!-- 以下、ヒーロー部分 -->
+
+    <div class="hero">
+      <div class="hero__video-container">
+        <video
+          src="images/hero/Banner - 88452.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+        <div class="hero__title">
+          <h1>WEB DESIGN SPECIALIST</h1>
+          <h3>お客様の夢を叶えるWEBサイトを制作</h3>
+          <button class="hero__btn">CONTACT</button>
+        </div>
+        <div class="hero__scroll">
+          <p>SCROLL</p>
+          <div class="hero__scroll-arrow"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 以下、ニュースセクション -->
+
+    <section class="news">
+      <div class="news__inner">
+        <div class="news__container">
+          <div class="section-title news__title">
+            <h2>NEWS</h2>
+            <p>お知らせ</p>
+          </div>
+          <div class="news__list">
+            <ul>
+              <div class="news__tag">
+                <li>2030.02.01</li>
+                <li class="news__icon">お知らせ</li>
+              </div>
+              <li class="news__text">
+                Webデザインニュースサイト「ウェブマガジン」に取材いただきました
+              </li>
+            </ul>
+            <ul>
+              <div class="news__tag">
+                <li>2030.01.25</li>
+                 <li class="news__icon">制作実績</li>
+              </div>
+              <li class="news__text">Smoothiesta様のWebサイトを制作いたしました</li>
+            </ul>
+            <ul>
+              <div class="news__tag">
+                <li>2030.01.20</li>
+                <li class="news__icon">採用</li>
+              </div>
+              <li class="news__text">Webデザイナーを１名募集中です！</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 以下、サービスセクション -->
+
+    <section class="service">
+      <div class="service__inner">
+        <div class="section-title">
+          <h2>SERVICE</h2>
+          <p>事業内容</p>
+        </div>
+
+        <div class="service__container">
+          <div class="service__content">
+            <div class="service__img">
+              <img src="images/service01.jpg" alt="service01" />
+            </div>
+            <h4>Webサイト制作</h4>
+            <p>
+              新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。
+            </p>
+          </div>
+          <div class="service__content">
+            <div class="service__img">
+              <img src="images/service02.jpg" alt="service02" />
+            </div>
+            <h4>Webサイト運用</h4>
+            <p>
+              新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。
+            </p>
+          </div>
+          <div class="service__content">
+            <div class="service__img">
+              <img src="images/service03.jpg" alt="service03" />
+            </div>
+            <h4>アプリ開発</h4>
+            <p>
+              新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。
+            </p>
+          </div>
+        </div>
+        <div class="service__btn">
+          <a href="#"><button class="btn-anime">MORE</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 以下、制作実績セクション -->
+
+    <section class="works">
+      <div class="works__inner">
+        <div class="works__container">
+          <div class="works__container-swiper">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/works/citylab.jpg" alt="citylab" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/works/lamina.jpg" alt="lamina" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/works/smoothiesta.jpg" alt="smoothiesta" />
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="works__content">
+            <div class="section-title">
+              <h2>WORKS</h2>
+              <p>制作実績</p>
+            </div>
+            <div class="works__text">
+              様々なジャンルのWebサイト制作が可能です。
+              ご購入やお申込み数の増加などを実現します！
+            </div>
+            <div class="works__btn">
+              <a href="#"><button class="btn-anime">MORE</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__wrapper-pc"></div>
+      </div>
+      <div class="works__wrapper"></div>
+    </section>
+
+    <!-- 以下、COMPANYセクション -->
+
+    <section class="company">
+      <div class="company__inner">
+        <div class="company__wrapper">
+          <img class="company__wrapper-face" src="images/bg-face.png" alt="bg-face" />
+        </div>
+        <div class="company__container">
+          <div class="section-title">
+            <h2>COMPANY</h2>
+            <p>私たちについて</p>
+          </div>
+          <h2 class="company__sub">サイトのゴール =</h2>
+          <h2 class="company__sub">夢を叶えること</h2>
+          <div class="company__text">
+            お客様の夢を叶えること。<br />
+            それがWebサイトのゴールであり、私たちが目指すことです。<br />
+            だからこそちゃんと成果を出すサイトを全力でお作りします。<br />
+            お客様の笑顔を見たい。<br />
+            夢を実現する手助けをさせてください。
+          </div>
+          <a href="#"><button class="btn-anime">MORE</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 以下、採用情報セクション -->
+
+    <section class="recruit">
+      <div class="recruit__base-img"></div>
+      <div class="recruit__inner">
+        <div class="recruit__container">
+          <div class="recruit__content">
+            <div class="section-title">
+              <h2>RECRUIT</h2>
+              <p>採用情報</p>
+            </div>
+            <p>私たちと一緒に働きませんか？</p>
+            <a href="#"><button class="btn-anime">MORE</button></a>
+          </div>
+        </div>
+        <div class="recruit__img">
+          <img src="images/recruit.jpg" alt="recruit" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 以下、お問い合わせセクション -->
+
+    <section class="contact">
+      <div class="contact__container">
+        <div class="contact__content">
+          <div class="section-title">
+            <h2>CONTACT</h2>
+            <p>お問い合わせ</p>
+          </div>
+          <p>Webサイトの制作のご依頼やお見積りなど、お気軽にご相談ください。</p>
+          <a href="#"><button class="btn-anime">MORE</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 以下、フッター -->
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <nav class="footer__nav">
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">RECRUIT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </nav>
+        <span>&copy TANI DESIGN</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

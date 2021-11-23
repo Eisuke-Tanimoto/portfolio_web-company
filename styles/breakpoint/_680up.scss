@@ -1,0 +1,195 @@
+.content-width {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.fs-sm {
+  font-size: 0.8em;
+}
+.fs-md {
+  font-size: 1.2em;
+}
+.fs-lr {
+  font-size: 3em;
+  font-weight: "Semi-bold 600";
+}
+
+.menu-btn {
+  display: none;
+}
+
+.header {
+  &__nav {
+    display: flex;
+  }
+}
+
+.news {
+  &__inner {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title {
+    &.section-title {
+      text-align: left;
+      padding-right: 20px;
+    }
+  }
+
+  &__list {
+    width: 100%;
+    padding-left: 20px;
+
+    & > ul {
+      display: flex;
+
+      & > li {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__text {
+    width: 60%;
+  }
+
+  &__tag {
+    width: 180px;
+    margin-right: 20px;
+  }
+}
+
+.service {
+  width: 100%;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__content {
+    width: 31%;
+    text-align: center;
+
+    & > p {
+      text-align: left;
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+}
+
+.works {
+  margin-bottom: 0;
+
+  &__wrapper {
+    display: none;
+  }
+
+  &__inner {
+    position: relative;
+  }
+
+  &__wrapper-pc {
+    position: absolute;
+    width: 60%;
+    height: 130%;
+    top: 0;
+    right: 0;
+    background-color: $BGgray;
+    z-index: -1;
+  }
+  &__container {
+    flex-direction: row;
+    justify-content: space-around;
+
+    &-swiper {
+      width: 50%;
+      top: 50px;
+    }
+  }
+
+  &__content {
+    width: 35%;
+    padding-right: 30px;
+    padding-top: 12%;
+  }
+}
+
+.company {
+  margin-top: 50px;
+  height: 500px;
+  margin-bottom: 0;
+
+  &__wrapper {
+    &-face {
+      display: block;
+    }
+  }
+}
+
+.recruit {
+  width: 100%;
+  height: 300px;
+
+  &__inner {
+    width: 80%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__base-img {
+    display: none;
+  }
+
+  &__img {
+    display: block;
+    width: 60%;
+  }
+
+  &__container {
+    width: 40%;
+    height: 100%;
+    background-color: $BGgray;
+    position: relative;
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__img {
+    width: 60%;
+    height: 100%;
+
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.footer {
+  &__nav {
+    justify-content: center;
+  }
+}

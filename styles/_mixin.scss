@@ -1,0 +1,50 @@
+@mixin animation(
+  $name,
+  $duration: 1s,
+  $timing-function: ease,
+  $delay: 0s,
+  $iteration-count: 1,
+  $direction: normal,
+  $fill-mode: forwards
+) {
+  animation: {
+    name: $name;
+    duration: $duration;
+    timing-function: $timing-function;
+    delay: $delay;
+    iteration-count: $iteration-count;
+    direction: $direction;
+    fill-mode: $fill-mode;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes arrowAnimation {
+  0% {
+      height: 0;
+  }
+
+  50% {
+    height: 100px;
+    transform: translateY(0px);
+  }
+  
+  75% {
+    transform: translateY(100px);
+    height: 100px;
+  }
+  
+  100% {
+    transform: translateY(100px);
+      height: 100px;
+  }
+}
