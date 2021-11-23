@@ -1,8 +1,0 @@
-@import 'styles/vendors/swiper-bundle.css';
-@import 'styles/variables';
-@import 'styles/mixin';
-@import 'styles/breakpoint/base';
-
-@media screen and (min-width: 681px) {
-  @import 'styles/breakpoint/680up';
-}
